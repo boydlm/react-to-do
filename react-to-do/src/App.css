@@ -23,3 +23,21 @@
   justify-content: space-between;
   cursor: pointer;
 }
+
+.todo-form{
+  margin: auto;
+  background: rgb(112, 111, 111);
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo-form input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.taskDone {
+  text-decoration: line-through;
+}
