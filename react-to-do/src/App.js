@@ -4,11 +4,7 @@ import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
 
 function App() {
-  const [todos, setTodos] = useState([
-    { complete: false, task: "Read about MongoDb" },
-    { complete: false, task: "Create a React ToDo App" },
-    { complete: false, task: "Find my key" }
-  ]);
+  const [todos, setTodos] = useState([]);
   return (
     <div className="App">
       <TodoForm addTodo={(todo) => {
