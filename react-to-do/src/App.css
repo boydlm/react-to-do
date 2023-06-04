@@ -1,5 +1,5 @@
 .App {
-  background: #27292d;
+  background: #e9ecf3;
   padding: 30px;
   height: 100vh;
 }
@@ -44,6 +44,32 @@
 
 .button{
   background-color: #f44336; /* red */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.button2{
+  background-color: #3662f4; /* red */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.button3{
+  background-color: #3662f4; /* red */
   border: none;
   color: white;
   padding: 10px;
