@@ -22,11 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <TodoForm addTodo={(todo) => {
-        if (todo.task.trim().length > 0) {
-          setTodos([...todos, todo]);
-        }
-      }} />
+      <TodoForm updateTodos={(list) => {setTodos(list)}} />
       <TodoList todos={todos} updateTodos={(list) => { setTodos(list) }}></TodoList>
     </div>
   );
