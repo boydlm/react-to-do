@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function TodoForm({ addTodo }) {
+function TodoForm({ updateTodos }) {
     const [userInput, setUserInput] = useState("");
 
     async function postData(url = '', data = {}) {
@@ -20,7 +20,7 @@ function TodoForm({ addTodo }) {
         await postData('http://localhost:5000/todo/create',
           { complete: false, task: userInput })
           .then(data => {
-              addTodo(data);
+              updateTodos(data);
               setUserInput("");
            })
      };
